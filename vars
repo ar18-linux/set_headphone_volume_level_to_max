@@ -1,2 +1,4 @@
-install_dir="/opt/ar18"
+if [ -z "${install_dir+x}" ]; then
+  install_dir="/opt/ar18"
+fi
 module_name="set_headphone_volume_level_to_max"
