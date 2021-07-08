@@ -2,7 +2,7 @@
 Description=Continuously set the headphone volume level to max, so when the headphone is plugged out the sound keeps playing
  
 [Service]
-ExecStart=/opt/ar18/set_headphone_volume_level_to_max/set_headphone_volume_level_to_max.sh
+ExecStart={{INSTALL_DIR}}/set_headphone_volume_level_to_max/set_headphone_volume_level_to_max.sh
  
 [Install]
 WantedBy=multi-user.target
